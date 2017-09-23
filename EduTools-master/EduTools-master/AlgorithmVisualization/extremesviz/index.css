@@ -1,0 +1,142 @@
+body, html {
+  height:100%; 
+    margin:0;
+  border:0;
+  padding:0;
+  height:100%; 
+  max-height:100%; 
+  overflow: hidden;
+
+  background-color: #DBDBDB;
+  font-family: "calibri", serif;
+}
+
+#title {
+	width: 100%;
+	height: 100px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f6f8+0,d8e1e7+50,b5c6d0+51,e0eff9+100;Grey+Gloss+%232 */
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(top, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+
+	/* border */
+	-webkit-box-shadow: 0px 3px 17px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 17px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 17px 3px rgba(0,0,0,0.75);
+	
+	/* text */
+	text-shadow: 2px 1px 2px rgba(150, 150, 150, 1);
+	
+	/* TITLE text font stuff*/
+	font-weight: bold;
+	font-size: 41px;
+	text-align: center 
+}
+
+#controlbox {
+	height:50px;
+	padding: 5px;
+	/* box shadow */
+	-webkit-box-shadow: inset 2px -8px 20px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 2px -8px 20px -4px rgba(0,0,0,0.75);
+	box-shadow: inset 2px -8px 20px -4px rgba(0,0,0,0.75);
+}
+
+#filename{
+	padding-right:5px;
+}
+
+#filename, #file, #startSearch, #speedChanger, #pauseRestart{
+	font-weight:bold;
+}
+
+#pointbox {
+position: fixed;
+left: 0px;
+top: 160px;
+right:400px;
+bottom: 0px;
+width: 420px;
+overflow:auto;
+}
+
+
+#map {
+position: absolute;
+top:180px;
+bottom:20px;
+left:420px;
+right:0px;
+overflow:hidden;
+width:1450px;
+
+border: 5px solid #778185;
+-webkit-box-shadow: 10px 10px 18px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 18px -4px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 18px -4px rgba(0,0,0,0.75);
+}
+
+#map * {
+cursor:crosshair;
+}
+
+table.nmptable {
+font-size:8pt;
+border: 1px solid black;
+border-spacing: 0px;
+margin-left: auto;
+margin-right: auto;
+background-color:white;
+}
+
+table.nmptable  td, th {
+border: solid black;
+border-width: 1px;
+}
+
+table.nmptable2 td, th {
+border-width: 0px;
+}
+
+table.nmptable tr td {
+text-align:right;
+}
+
+table.pthtable {
+font-size:10pt;
+border: 1px solid black;
+border-spacing: 0px;
+margin-left: auto;
+margin-right: auto;
+background-color:white;
+}
+
+table.pthtable  td, th {
+border: solid black;
+border-width: 1px;
+}
+
+table.pthtable tr td {
+text-align:left;
+}
+
+table.gratable {
+font-size:10pt;
+border: 1px solid black;
+border-spacing: 0px;
+margin-left: auto;
+margin-right: auto;
+background-color:white;
+}
+
+table.gratable  td, th {
+border: solid black;
+border-width: 1px;
+}
+
+table.gratable tr td {
+text-align:left;
+}
